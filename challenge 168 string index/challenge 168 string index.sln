@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "challenge 168 string index", "challenge 168 string index\challenge 168 string index.vcproj", "{745C85F3-B724-42C2-AD98-D7B4F21AC83A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{745C85F3-B724-42C2-AD98-D7B4F21AC83A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{745C85F3-B724-42C2-AD98-D7B4F21AC83A}.Debug|Win32.Build.0 = Debug|Win32
+		{745C85F3-B724-42C2-AD98-D7B4F21AC83A}.Release|Win32.ActiveCfg = Release|Win32
+		{745C85F3-B724-42C2-AD98-D7B4F21AC83A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
