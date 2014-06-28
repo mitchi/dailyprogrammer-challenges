@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+#include <stdio.h>
 
 //Next fastest after compile time regex
 char table[256];
@@ -17,7 +15,7 @@ int main(void)
 
 	p = example;
 	int len = 0;
-	vector<char*> offsets;
+	char* offsets[20]; int k = 0;
 
 	//parse the string, save the offsets
 	while (1)
@@ -28,7 +26,7 @@ int main(void)
 			*p = 0;
 			if (len>0) 
 			{
-				offsets.push_back( p - len);
+				offsets[k++] = p - len;
 				len = 0;
 			}
 			p++;
@@ -40,7 +38,7 @@ int main(void)
 	}
 
 	int len2 = sizeof(check) / 4;
-	int size = offsets.size();
+	int size = k;
 
 	for (int i = 0; i < len2; i++) {
 		int offset = check[i];
